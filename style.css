@@ -1,0 +1,389 @@
+/* body */
+
+/* Center M logo vertically */
+.navbar-brand img {
+    height: 30px;
+    margin-top: -7px;
+  }
+
+  .nav-item img{
+    width: 20px;
+  }
+  
+  /* Style active navbar item */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff !important;
+  }
+  
+  /* Style search icon button */
+  .navbar-nav .form-inline button {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Change search input color when focused */
+  .navbar-nav .form-inline input:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  /* Set max-width for page content */
+  .container {
+    margin-left: 0;text-align: left;
+  }
+  .container .building{
+    width :1450px;
+    height: 500px;
+  }
+  .heroContent {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: left;
+    z-index: 1;
+  }
+
+
+  /* experience */
+  .experience {
+    background-color: #fff;
+  }
+  .exp{
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+  .exp .build {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .events h1 {
+    font-size: 18px;
+  }
+  
+  .events p {
+    font-size: 15px;
+  }
+  
+  
+  
+  .events ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .events li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+
+
+
+  /* design */
+
+
+  .design-card{
+    background-color: black; color: white;
+    height: 500px;
+    padding: 100px;
+  }
+  .design-title{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+  }
+  .design-title p{
+    font-size: 15px;
+  }
+  .design-card span{
+    margin-left: 200px;
+  }
+  .design-li{
+    margin-left: 200px;
+  }
+  .design-li li {
+    color: white;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-right: 10px; 
+  }
+  
+
+  /*  stories */
+
+
+  .stories-card{
+    height: 500px;
+    padding: 100px;
+    
+  }
+  .stories-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .stories-title p{
+    font-size: 18px;  font-weight: normal;
+  }
+  .stories-li {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    margin-left: 100px;
+  }
+  
+  .stories-li li {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+  }
+  .stories-li h3{
+    margin-top: 5px;
+    font-size: 1rem;margin-left: 100px;
+  }
+  .stories-li p{
+    margin-left: 100px;
+  }
+  
+  .stories-li li img {
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+  }
+
+
+
+  /* footer */
+  .footer {
+    padding: 30px 0;
+    margin-top: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .footer-card {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-card p{
+    margin-top: 7px;
+  }
+  .footer-card button{
+    margin-left: 10px;
+    color: black;
+    max-width: 100%;
+    font-size: 10px;
+    background-color: #fff;
+  }
+  .end-footer img{
+    width:100px;
+  }
+
+  .end-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+
+  .end-li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .end-li li {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-card {
+      max-width: 100%;
+    }
+  }  
+  
+
+  /* Adjust margins for smaller screens */
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      height: 25px;
+      margin-top: -5px;
+    }
+    .container {
+      margin-top: 50px;
+    }
+  }
+  
+
+  /* For screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    .heroContent {
+      text-align: center;
+      padding: 20px;
+    }
+    .building {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* For screens larger than 576px (small devices) */
+  @media (min-width: 576px) {
+    .heroContent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      max-width: 600px;
+    }
+    .building {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    .pHero {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+  }
+
+
+  /* For screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    .build {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .events {
+      margin-top: 30px;
+    }
+    .list-unstyled {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .col-md-4 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+  
+  /* For screens larger than 576px (small devices) */
+  @media (min-width: 576px) {
+    .build {
+      font-size: 3rem;
+    }
+    .exp {
+      padding: 50px;
+    }
+    .events {
+      margin-top: 50px;
+    }
+    .col-md-4 {
+      margin-bottom: 50px;
+      text-align: left;
+    }
+  }
+
+  /* For screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    .design-title {
+      text-align: center;
+    }
+    .design-li {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .list-inline {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    .list-inline li {
+      display: inline-block;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  
+  /* For screens larger than 576px (small devices) */
+  @media (min-width: 576px) {
+    .design-title {
+      text-align: left;
+    }
+    .design-li {
+      margin-top: 50px;
+      text-align: left;
+    }
+    .list-inline li {
+      margin-right: 10px;
+      margin-left: 0;
+    }
+  }
+  
+
+  /* For screens smaller than 768px (i.e., mobile devices) */
+
+@media (max-width: 767px) {
+    /* Reduce font size for the section title */
+    .stories-title h1 {
+      font-size: 24px;
+    }
+    
+    /* Reduce font size for the section subtitle */
+    .stories-title p {
+      font-size: 16px;
+    }
+    
+    /* Make each story card take up the full width of the screen */
+    .stories-li li {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    
+    /* Center the story card content */
+    .stories-li li img,
+    .stories-li li h3,
+    .stories-li li p {
+      text-align: center;
+    }
+    
+    /* Remove the bullets from the story card list */
+    .stories-li ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    /* Add margin between story card elements */
+    .stories-li li:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    
+    /* Reduce font size for the story card title */
+    .stories-li li h3 {
+      font-size: 24px;
+    }
+    
+    /* Reduce font size for the story card date */
+    .stories-li li p {
+      font-size: 14px;
+    }
+  }
+  
+
+ 
+  
+  
